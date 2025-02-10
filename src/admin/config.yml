@@ -5,17 +5,30 @@ media_folder: "src/_assets/img"
 public_folder: "/_assets/img"
 collections:
   - name: "pixel dirt"
-    label: "Posts"
+    label: "Pages"
     folder: "src"
     create: true
     slug: "---"
     fields:
+      - { label: "layout", name: "layout", widget: "dropdown",  options: ['base.njk']}
       - { label: "title", name: "title", widget: "string" }
       - { label: "date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
       - { label: "updated", name: "updated", widget: "date", format: 'YYYY-MM-DD', required: false}
       - { label: "intro", name: "intro", widget: "string" }
-      - { label: "canonical", name: "canonical", widget: "string", required: false }
-      - { label: "publication", name: "publication", widget: "string", required: false }
+      - { label: "permalink", name: "permalink", widget: "string" }
+      - { label: "tags", name: "tags", widget: "list" }
+      - { label: "body", name: "body", widget: "markdown" }
+  - name: "pixel dirt blog"
+    label: "Posts"
+    folder: "src/blog"
+    create: true
+    slug: "---"
+    fields:
+      - { label: "layout", name: "layout", widget: "dropdown",  options: ['post.njk']}
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "date", name: "date", widget: "date", format: 'YYYY-MM-DD' }
+      - { label: "updated", name: "updated", widget: "date", format: 'YYYY-MM-DD', required: false}
+      - { label: "intro", name: "intro", widget: "string" }
       - { label: "permalink", name: "permalink", widget: "string" }
       - { label: "tags", name: "tags", widget: "list" }
       - { label: "body", name: "body", widget: "markdown" }
