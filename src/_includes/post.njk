@@ -1,0 +1,14 @@
+---
+layout: base.njk 
+---
+<div class="blog">
+    <div>
+        <hr>
+        <small>
+            {{ date | postDate }}
+        </small>
+      </div>
+    <div class="blog-title">{{ title }}</div>
+</div>
+<section>{{ content | safe}}</section>
+<small><a href="/blog"> back to all posts >></a></small>

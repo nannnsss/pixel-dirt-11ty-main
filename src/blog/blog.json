@@ -1,0 +1,5 @@
+{
+    "layout": "post",
+    "permalink": "/{% year %}/{{ page.fileSlug }}/",
+    "tags": "posts"
+  }

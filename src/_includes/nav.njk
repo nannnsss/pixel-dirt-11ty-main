@@ -1,0 +1,9 @@
+
+<nav>
+    <div class="nav title"><a href="{{ '/' | url }}"> {{ site.name }}</a></div>
+        {%- for item in collections.nav -%}
+            <div><a href="{{ item.url }}">{{ item.data.title }}</a></div>
+        {%- endfor -%}
+    </ul>
+</nav>
+   
