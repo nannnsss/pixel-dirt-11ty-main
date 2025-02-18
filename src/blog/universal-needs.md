@@ -4,7 +4,9 @@ date: 2025-02-18
 categories: ["personal growth"]
 ---
 
-I recently learned about [Manfred Max-Neef's Fundamental Human Needs](https://en.wikipedia.org/wiki/Manfred_Max-Neef%27s_Fundamental_human_needs) and I've been really enjoying the practice of noticing my emotions and considering what the underlying need is - for both positive AND negative emotions. This practice has helped me realize that in the past, I almost exclusively focused on the emotions that felt difficult - sadness, resentment, confusion, fear - and didn't celebrate the ones that created ease in my life. <mark>Part of this practice is being intentional about not categorizing feelings as good or bad - they just are</mark>. And each one of them provides me with information about my needs. *Very cool.*
+I recently learned about [Manfred Max-Neef's Fundamental Human Needs](https://en.wikipedia.org/wiki/Manfred_Max-Neef%27s_Fundamental_human_needs) and I've been really enjoying the practice of noticing my emotions and considering what the underlying need is - for both positive AND negative emotions. 
+
+This practice has helped me realize that in the past, I almost exclusively focused on the emotions that felt difficult - sadness, resentment, confusion, fear - and didn't celebrate the ones that created ease in my life. <mark>Part of this practice is being intentional about not categorizing feelings as good or bad - they just are</mark>. And each one of them provides me with information about my needs. *Very cool.*
 
 Manfred Max-Neef is a Chilean economist that rejected the economic idea of measuring economy through industrial output (GDP), as that simply measured the transition of weath from the working class to the ruling class. Instead, he studied how meeting the universal human needs of people contributed to a vibrant, healthy society - something called ["Human Scale Development"](https://web.archive.org/web/20130319153338/http://www.max-neef.cl/download/Max-neef_Human_Scale_development.pdf). 
 
