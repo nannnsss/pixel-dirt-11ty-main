@@ -29,4 +29,10 @@ Summer gave me a lot to look forward to. I moved onto a large swath of land that
 
 #### Fall
 
-I love fall. I love the colors, the temperature, the winding down. Fall 2024
+I love fall. I love the colors, the temperature, the winding down. My landmates moved on to the land and we dreamt together the visions we had for the land - communion, regeneration, growth, healing. Feeling "at home" where I lived created so much space for me to engage in things that made me feel alive. Exploring the land freely, feeling a sense of autonomy in my living space, building relationships and trust with my landmates - these all felt so good. I continued to tend to the land, expanding out into the old cannabis cultivation field we affectionately named "the rebar forest" since there are thosands of sticks of rebar protruding from the ground, left over from the previous operation. Although our to-do list continues to feel never-ending, each little thing we do toward our vision feels incredibly satisfying.
+
+## 2025
+
+I never tend to create "new years resolutions", but <mark>the transition into new year does encourage me to reflect and shift</mark>. My focus word of 2025 is trust. I want to trust myself more - trust my needs, emotions, dreams. Trust that what I feel drawn to is for me and resist the societal conditioning that tells me I'm not good enough, rich enough, capabile enough to strive for things beyond the status quo. Trust that my values can inform how I build community around me, how I make money, how I use the time gifted to me through existing. My goal for 2025 is to look back and trust I did my best to care for myself to be able to truly thrive.
+
+Cheers!
