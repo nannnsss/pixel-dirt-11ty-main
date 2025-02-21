@@ -1,7 +1,7 @@
 ---
 title: "2024: a year in review"
 date: 2025-01-09
-categories: ["year-review"]
+categories: ["year review"]
 ---
 2024 felt weird, man. Summarizing a year like last year seems disjointed and messy. I've tried to write this post several times, but nothing is quite sticking. Instead of trying to trudge through and write the post I was hoping to write, I'm focusing on why reflecting is important to me. 
 

@@ -1,7 +1,7 @@
 ---
 title: this is a test blog post
 date: 2024-12-01
-categories: ["javascript","cats"]
+categories: ["website"]
 ---
 
 Lorem markdownum nate formae ancora solis, viros Tethyn, patruo da tenet **et**.

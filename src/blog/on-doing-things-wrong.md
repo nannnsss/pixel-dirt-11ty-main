@@ -1,0 +1,23 @@
+---
+title: on doing things "wrong" & infinite sources of knowledge
+date: 2025-02-21
+categories: ["personal growth", "farm", "website"]
+---
+
+<mark>Sometimes, I like to do things "wrong".</mark> Sure, maybe the unentended outcomes feel uncomfortable in the moment or frustrating that they didn't go according to plan, but I always learn more than when I research the "right" way to try and perfect projects right away.
+
+I've noticed that the combination of my smartphone and the infinite knowledge contained on the internet has reduced my willingness to find creative solutions: both artistically and practically. Getting into the habit of watching videos, reading articles, and comparing methods before I've even given something a chance has become the norm - and I hate it. I long for the creativity I exuded as a child, figuring out soltions without waiting for a specific tool I researched for hours to arrive. Trying new things the way *I* want to. Doing things incredibly inefficiently until I find a way to improve my method. I miss the creative solutions I would find without typing "best way to..." into a search bar.
+
+So, I'm making an effort to rediscover that part of me. I'm rediscovering doing things wrong.
+
+This is one practice (of many) I'm focusing on this year, with my word of the year: (trust)[/blog/2024-review.md]. There's beauty in the mystery of trusting myself to try something, the potential of failing, and learning what works best for me. I want to build things that only kind of work and improve on them (ahem, this website). I want to get SO CLOSE to solving a problem, think about it for a few days, then stumble on an unexpected "A HA!". I want to give something my all and have it go way different than I expected. I want to teach myself! On a more cerebral note, it's important: <mark>we objectively get less creative as we get older</mark>.
+
+There are studies to back this up, but I don't feel the need to cite them because it feels obvious: when presented with a simple task or conundrum, children are able to more easily find creative solutions than adults are. *In case any trolls have decided to start reading my blog, first: plz, go away. Second, I'm not saying children find better solutions to ALL problems. Just to be clear.* At the very least, I've noticed a steady decline in my tolerance to do things "wrong", try new things organically, or find my own creative solutions.
+
+I cringe at the idea of utilizing the internet, especially AI, to figure out how to do things and I worry about the reprecussions, sometimes. With the popularity of AI increasing, presumably to make our lives easier, I can't help but imagine a future that discounts the weirdos. Casts aside the oddballs that come up with new, inefficient, but fun ideas. Although I've made an effort to reduce my AI usage as much as possible, there are times I think "Man, I should just look this up". When I cave and simply find easy, external answers, it turns the opportunity for creativity into feeling like another rote chore to complete step-by-step.
+
+Reliance on the internet can also isolate us from one another - very convenient for a certain flavor of rugged individualism. Again, yes, there are wonderful communities of people in the digital realm that connect in very meaningful ways. Those have their value and I enjoy those spaces too. I also see immense value in community-led skill-sharing and problem-solving. The times I've been part of a group project as an adult has often resulted in new friends, unexpected outcomes, and incredible moments of collaboration.
+
+One of my most beloved examples of this kind of unexpected creativity comes from a story about my brother: In second grade on Earth Day, his class was drawing pictures of the Earth. My brother hated these kinds of art projects. He proceeded to completely fill his paper, save a tiny circle in the middle, with black crayon. He then added to the tiny circle a dot of green and a dot of blue. When his teacher reprimanded him for not following directions, he shared that he did follow the assignment! "It's earth from space!" 
+
+We are incredibly lucky to have access to the information readily available to us, I won't argue against that. *It's mindboggling.* What I hope, however, is we can harness what is available to us to learn foundational knowledge, learn from history, share important skills freely. And along with all that, ensure we are adding our own mark on the world through diverse methods, views, collaboration and simply celebrating our own, weird selves.

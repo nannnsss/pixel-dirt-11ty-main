@@ -1,0 +1,20 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "11ty",
+  "frontMatter.preview.host": "http://localhost:8080",
+  "frontMatter.git.enabled": true,
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "src",
+      "path": "[[workspace]]/src"
+    },
+    {
+      "title": "blog",
+      "path": "[[workspace]]/src/blog"
+    },
+    {
+      "title": "_includes",
+      "path": "[[workspace]]/src/_includes"
+    }
+  ]
+}
