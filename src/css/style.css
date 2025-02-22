@@ -1,0 +1,474 @@
+@import url(https://fonts.bunny.net/css?family=ibm-plex-mono:300,300i,400,400i,500,500i,700,700i);
+
+/*! concrete.css v3.0.0 | MIT License | github.com/louismerlin/concrete.css */
+
+/**
+ * Set universal color variables
+ */
+
+:root {
+  --fg: #111;
+  --bg: ##f9fafb;
+  --fglight: #aaaaaa;
+  --ac: #ff4500;
+  --aclight: #ffb79d;
+}
+
+/**
+ * Invert the colors if the user has dark mode activated.
+ */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #f9fafb;
+    --bg: #1d1d1d;
+  }
+}
+
+/**
+ * 1. Modify the base font-size to 1.25rem, to make everything larger.
+ * 2. Set box-sizing globally to handle padding and border widths.
+ */
+
+html {
+  font-size: 1rem; /* 1 */
+  box-sizing: border-box; /* 2 */
+}
+
+/**
+ * 1. Continue the global box-sizing modification.
+ * 2. Set the underline size for all elements.
+ */
+
+*, ::after, ::before {
+  box-sizing: inherit; /* 1 */
+  text-decoration-thickness: .1rem; /* 2 */
+}
+
+/**
+ * 1. Remove body margin.
+ * 2. Set the text and background color to white and black by default.
+ * 3. Set the font-family to Helvetica, or equivalent.
+ */
+
+body {
+  margin: 0; /* 1 */
+  background: var(--bg); /* 2 */
+  color: var(--fg); /* 2 */
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+/**
+ * Set the link color to accent
+ */
+
+a {
+  color: var(--ac);
+  text-decoration-skip-ink: auto;
+}
+
+.blog-title {
+  
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+/**
+ * 1. Stretch figure to full width of the section.
+ */
+figure {
+  margin: 0; /* 1 */
+}
+
+/**
+ * 1. Right-align text 
+ * 2. Make figure caption a little smaller than normal text.
+ * 3. Add border at bottom.
+ * 4. Add spacing after the element.
+ */
+figcaption {
+  text-align: right; /* 1 */
+  font-size: 0.8em; /* 2 */
+  border-bottom: .2rem solid var(--fg); /* 3 */
+  padding-bottom: .2rem; /* 4 */
+}
+
+/**
+ * 1. Set the max width of images to 100%, so that they don't overflow.
+ * 2. Set the height of images relative to their width.
+ */
+
+img {
+  max-width: 100%; /* 1 */
+  height: auto; /* 2 */
+}
+
+.aboutimg {
+  box-shadow:    
+  1px 2px 2px hsla(0, 0%, 70%, 0.2),
+  2px 4px 4px hsla(0, 0%, 70%, 0.2),
+  4px 8px 8px hsla(0, 0%, 70%, 0.2),
+  8px 16px 16px hsla(0, 0%, 70%, 0.2),
+  16px 32px 32px hsla(0, 0%, 70%, 0.2);
+  height: 400px;
+  width: auto;
+  transform: rotate(2deg);
+  margin-bottom: 20px;
+}
+
+/**
+ * Add some padding around the main sections.
+ */
+
+main section + section {
+  padding: 2rem 0;
+}
+
+/** 
+ * 1. Center the root main/header/footer elements horizontally.
+ * 2. Set the width of the elements to 640px, with padding for mobile screens.
+ */
+
+body > header,
+body > main,
+body > footer {
+  margin: auto; /* 1 */
+  max-width: 660px; /* 2 */
+  padding-left: 10px; /* 2 */
+  padding-right: 10px; /* 2 */
+  width: 100%; /* 2 */
+}
+
+/**
+ * 1. Add some padding around the main header.
+ * 2. Increase the size of text in the main header.
+ */
+
+body > header {
+  padding-top: 1rem; /* 1 */
+  padding-bottom: 1rem; /* 1 */
+  font-size: 1.2em; /* 2 */
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.7818em; }
+h3 { font-size: 1.5874em; }
+h4 { font-size: 1.4142em; }
+h5 { font-size: 1.2599em; }
+h6 { font-size: 1.1225em; }
+small { font-size: .8909em; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+  padding-top: 20px;
+}
+
+/**
+ * Center the text in the footer.
+ */
+
+footer {
+  text-align: center;
+}
+
+.blog {
+  display:flex;
+  flex-direction: column;
+}
+
+/**
+ * 1. Change the style of the button.
+ * 2. Set the color and border of the button.
+ * 3. Add the pointer cursor when hovering a button.
+ */
+
+button,a {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  display: inline-block; /* 1 */
+  vertical-align: middle; /* 1 */
+  padding: .2rem .5rem; /* 1 */
+  font-size: 1rem; /* 1 */
+  font-weight: normal; /* 1 */
+  margin-bottom: .5rem; /* 1 */
+  background: var(--bg); /* 2 */
+  color: var(--fg); /* 2 */
+  border: .1rem solid var(--fg); /* 2 */
+  border-radius: 0; /* 2 */
+  cursor: pointer; /* 3 */
+} }
+
+/**
+ * 1. Set the border of a disabled button to be dashed.
+ * 2. Add the not-allowed cursor when hovering a disabled button.
+ */
+
+button:disabled,
+input[type="button"]:disabled,
+input[type="reset"]:disabled,
+input[type="submit"]:disabled{
+  border-style: dashed; /* 1 */
+  cursor: not-allowed; /* 2 */ 
+}
+
+/**
+ * Set the list bullet to square.
+ */
+
+ul {
+  list-style: square;
+}
+
+li {
+  padding-block: 5px;
+}
+
+/**
+ * Set a margin around the navigation bar
+ */
+nav {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+nav .title {
+  flex-grow: 1;
+}
+
+/**
+ * Set the border around a fieldset.
+ */
+
+fieldset {
+  border: .1rem solid var(--fg);
+}
+
+/**
+ * 1. Modify the display of labels and legends.
+ * 2. Add a margin underneath.
+ */
+
+label, legend {
+  display: block; /* 1 */
+  font-weight: bold; /* 1 */
+  margin-bottom: .4rem; /* 2 */
+}
+
+/** 
+ * 1. Change the appearance of the text input.
+ * 2. Set the color and border of the text input.
+ */
+
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+textarea,
+select {
+  -webkit-appearance: none; /* 1 */
+  -moz-appearance: none; /* 1 */
+  appearance: none; /* 1 */
+  box-shadow: none; /* 1 */
+  box-sizing: inherit; /* 1 */
+  padding: .2rem .5rem; /* 1 */
+  width: 100%; /* 1 */
+  font-size: 1rem; /* 1 */
+  color: var(--fg); /* 2 */
+  background-color: var(--bg); /* 2 */
+  border: .1rem solid var(--fg); /* 2 */
+  border-radius: 0; /* 2 */
+  font-family: Helvetica, Arial, sans-serif; /* 3 */
+}
+
+/**
+ * Set margin for form elements.
+ */
+
+fieldset, input, select, textarea {
+  margin: 0 0 .8rem 0;
+}
+
+/**
+ * 1. Set the font color for the placeholder in inputs.
+ * 2. Set font-style to italic for the placeholder in inputs.
+ */
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--fg); /* 1 */
+  font-style: italic; /* 2 */
+  opacity: 1;
+}
+
+/**
+ * 1. Expand width to 100% for the table element.
+ * 2. Remove the distance between the borders of adjacent table cells.
+ */
+
+table {
+  width: 100%; /* 1 */
+  border-spacing: 0; /* 2 */
+}
+
+/**
+ * Add padding around table cells.
+ */
+
+td, th {
+  padding: .4rem;
+}
+
+/**
+ * Remove left padding for first cell in a row.
+ */
+
+td:first-child, th:first-child {
+  padding-left: 0;
+}
+
+/**
+ * Remove right padding for last cell in a row.
+ */
+
+td:last-child, th:last-child {
+  padding-right: 0;
+}
+
+/**
+ * 1. Add a border under the table header.
+ * 2. Align the text to the left in the table header.
+ */
+
+th {
+  border-bottom: .1rem solid var(--fg); /* 1 */
+  text-align: left; /* 2 */
+}
+
+/**
+ * Add a thiner border under table rows.
+ */
+
+td {
+  border-bottom: .05rem solid var(--fg);
+}
+
+/**
+ * 1. Change the margins and padding.
+ * 2. Add a border on the left of these elements.
+ * 3. Set the y overflow to hidden to hide the navigation bar.
+ */
+
+blockquote, pre {
+  margin-left: 0; /* 1 */
+  margin-right: 0; /* 1 */
+  padding: .5rem .8rem; /* 1 */
+  border-left: .1rem solid var(--fg); /* 2 */
+  overflow-y: hidden; /* 3 */
+}
+
+/**
+ * 1. Set the rest of the border of the preformatted element to dotted.
+ * 2. Re-set the left border style.
+ */
+
+pre {
+  border: .05rem dotted var(--fg); /* 1 */
+  border-left: .1rem solid var(--fg); /* 2 */
+}
+
+/**
+ * 1. Modify the display of the code block.
+ * 2. Reduce the font size of the code block.
+ */
+
+pre > code {
+  white-space: pre; /* 1 */
+  display: block; /* 1 */
+  font-size: .8rem; /* 2 */
+}
+
+/**
+ * 1. Modify the display of the progress bar in all browsers.
+ * 2. Set the colors and border of the progress bar.
+ */
+
+progress {
+  -moz-appearance: none; /* 1 */
+  -webkit-appearance: none; /* 1 */
+  display: block; /* 1 */
+  height: .5rem; /* 1 */
+  overflow: hidden; /* 1 */
+  padding: 0; /* 1 */
+  width: 100%; /* 1 */
+  background: var(--bg); /* 2 */
+  color: var(--fg); /* 2 */
+  border: .1rem solid var(--fg); /* 2 */
+  border-radius: 0; /* 2 */
+}
+
+/**
+ * Set the background color of the webkit progress bar.
+ */
+
+progress::-webkit-progress-bar {
+  background-color: var(--bg);
+}
+
+/**
+ * Set the color of the webkit progress bar.
+ */
+
+progress::-webkit-progress-value {
+  background-color: var(--fg);
+}
+
+/**
+ * Set the color of the mozilla progress bar.
+ */
+
+progress::-moz-progress-bar {
+  background-color: var(--fg);
+}
+
+/* HTML: <div class="wavy-line"></div> */
+.wavy-line {
+  --s: 10px; /* size of the wave */
+  --b: 1.5px; /* thickness of the line */
+  --m: 1.2; /* curvature of the wave [0 2] */
+  
+  padding: 20px 0px;
+  margin-top: 10px;
+  background: #7c9e00;
+  --R: calc(var(--s)*sqrt(var(--m)*var(--m) + 1) + var(--b)/2);
+  height: calc(2*var(--R));
+  width: 100%;
+  --_g: #0000 calc(99% - var(--b)), #000 calc(101% - var(--b)) 99%, #0000 101%;
+  mask:
+    radial-gradient(var(--R) at left 50% bottom calc(-1*var(--m)*var(--s)), var(--_g)) 
+     calc(50% - 2*var(--s)) calc(50% - var(--s)/2 - var(--b)/2)/calc(4*var(--s)) calc(var(--s) + var(--b)) repeat-x,
+    radial-gradient(var(--R) at left 50% top calc(-1*var(--m)*var(--s)),var(--_g)) 
+     50% calc(50% + var(--s)/2 + var(--b)/2)/calc(4*var(--s)) calc(var(--s) + var(--b)) repeat-x;
+}
+
+mark {
+  background-color: var(--aclight);
+  border-radius: 5px;
+  padding: 0 6px;
+}
+
+.postlist {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}

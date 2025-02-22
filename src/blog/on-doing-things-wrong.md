@@ -22,4 +22,4 @@ One of my most beloved examples of this kind of unexpected creativity comes from
 
 We are incredibly lucky to have access to the information readily available to us, I won't argue against that. *It's mindboggling.* What I hope, however, is we can harness what is available to us to learn foundational knowledge, learn from history, share important skills freely. And along with all that, ensure we are adding our own mark on the world through diverse methods, views, collaboration and simply celebrating our own, weird selves.
 
-(Also, psst... [perfectionism is a symptom of white supremacy](https://emilypgerickson.com/2020/07/01/how-perfectionism-and-white-supremacy-culture-are-connected/). But that's another topic for a different time.)
+(Also, psst... [perfectionism is a symptom of white supremacy](https://emilypgerickson.com/2020/07/01/how-perfectionism-and-white-supremacy-culture-are-connected/). I have a lot more to say about all of this, but that's another post for a different time.)
